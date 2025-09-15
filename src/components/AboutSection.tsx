@@ -4,15 +4,15 @@ const AboutSection = () => {
   const metrics = [
     {
       icon: Users,
-      value: "10K+",
-      label: "Seguidores",
-      description: "Instagram + LinkedIn"
+      value: "20K+",
+      label: "Visualizações",
+      description: "@devgabriux & @gabspotter_br"
     },
     {
       icon: Eye,
       value: "50K+",
-      label: "Visualizações",
-      description: "Portfólio digital"
+      label: "Engajamento",
+      description: "Redes sociais"
     },
     {
       icon: Briefcase,
@@ -40,12 +40,11 @@ const AboutSection = () => {
                 Desenvolvedor, Empreendedor, Visionário
               </h3>
               <p className="text-lg text-text-secondary leading-relaxed">
-                Sou um desenvolvedor full-stack apaixonado por criar soluções que impactam pessoas e empresas. 
-                Minha jornada começou com códigos, mas evoluiu para a criação de experiências completas.
+                Sou Gabriel Mota, 21 anos, empreendedor cristão, com a missão de impactar vidas por meio da tecnologia, inovação e liberdade. 
+                Já fundei duas empresas — SoftTech Inovations (tecnologia) e SpotterCarsBr (conteúdo automotivo) — e atualmente desenvolvo um Micro-SaaS de alto impacto (CurriculoIA).
               </p>
               <p className="text-lg text-text-secondary leading-relaxed">
-                Acredito que tecnologia é apenas uma ferramenta. O verdadeiro valor está em entender problemas 
-                reais e criar soluções que as pessoas amem usar.
+                Minha jornada começou com códigos, mas hoje foco em criar experiências digitais completas que resolvem problemas reais e geram resultados concretos.
               </p>
             </div>
 

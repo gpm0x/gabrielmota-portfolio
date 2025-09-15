@@ -1,10 +1,16 @@
 import { ArrowRight, Github, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 import avatarImage from "@/assets/gabriel-avatar.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+      {/* Theme Toggle */}
+      <div className="absolute top-6 right-6">
+        <ThemeToggle />
+      </div>
+      
       <div className="max-w-4xl mx-auto text-center space-y-8 fade-in-up">
         {/* Avatar */}
         <div className="mb-8">
@@ -21,7 +27,7 @@ const HeroSection = () => {
             Gabriel Mota
           </h1>
           <p className="text-xl sm:text-2xl text-text-secondary font-light">
-            Desenvolvedor Full-Stack & Empreendedor Digital
+            Desenvolvedor | Empreendedor | Visionário
           </p>
         </div>
 

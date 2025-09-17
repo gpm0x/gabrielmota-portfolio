@@ -33,7 +33,7 @@ const CompaniesSection = () => {
       type: "SaaS",
       highlight: "Criador & Lead Developer",
       metrics: "Lista de espera ativa",
-      link: "#",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSca3kw2hpHw6VDoDMkLJK446tMhIqZzyRHEwqOArjfeuaFa8g/viewform?usp=header",
       icon: Brain,
       color: "text-warning"
     }

@@ -5,11 +5,7 @@ import avatarImage from "@/assets/gabriel-avatar.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
-      {/* Theme Toggle */}
-      <div className="absolute top-6 right-6">
-        <ThemeToggle />
-      </div>
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative pt-16">{/* Added pt-16 for nav spacing */}
       
       <div className="max-w-4xl mx-auto text-center space-y-8 fade-in-up">
         {/* Avatar */}

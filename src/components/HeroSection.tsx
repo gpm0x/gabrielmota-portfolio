@@ -13,7 +13,7 @@ const HeroSection = () => {
           <img
             src={avatarImage}
             alt="Gabriel Mota - Desenvolvedor Full-Stack e Empreendedor"
-            className="w-32 h-32 rounded-full mx-auto object-cover border-2 border-card-border shadow-medium"
+            className="w-40 h-40 rounded-full mx-auto object-cover border-2 border-card-border shadow-medium"
           />
         </div>
 

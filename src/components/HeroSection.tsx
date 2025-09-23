@@ -1,7 +1,7 @@
 import { ArrowRight, Github, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
-import avatarImage from "@/assets/gabriel-avatar.jpg";
+import avatarImage from "@/assets/gabriel-avatar-new.jpg";
 
 const HeroSection = () => {
   return (
